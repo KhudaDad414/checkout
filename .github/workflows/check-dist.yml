@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Rebuild the index.js file
-        run: npm run build
+        run: npm run prepare
 
       - name: Compare the expected and actual dist/ directories
         run: |
